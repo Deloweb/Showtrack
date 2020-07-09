@@ -1,0 +1,370 @@
+/* Font style */
+
+* {
+  font-family: "Lato", sans-serif;
+}
+.mainarticle h2 {
+  font-family: "Merriweather", serif;
+  text-align: center;
+  transition: 0.3s;
+}
+
+/* global style */
+
+.container,
+header,
+.head,
+article,
+.recent,
+.search {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container,
+.foot {
+  width: 90%;
+}
+.container,
+body,
+.foot,
+footer article,
+.line {
+  margin: 0 auto;
+}
+article,
+aside {
+  border: 1px solid black;
+  border-radius: 3px;
+}
+.linkimg,
+.logo {
+  width: auto;
+}
+.top article,
+.recent,
+.search {
+  position: relative;
+}
+footer article,
+aside,
+.adate {
+  align-items: flex-start;
+}
+.top article p,
+.button,
+aside p,
+footer p,
+nav {
+  text-align: center;
+}
+.head p,
+li,
+footer h3,
+.top article h3,
+.aside h3 {
+  text-transform: uppercase;
+}
+ul {
+  padding: 0;
+}
+li {
+  display: inline;
+}
+/* Font size */
+
+h1 {
+  font-size: 1.5rem;
+}
+.head p,
+.date {
+  font-size: 0.8rem;
+}
+article p,
+footer p,
+li {
+  font-size: 0.9rem;
+}
+.aside h3 {
+  font-size: 1.1rem;
+}
+
+/* Header */
+
+header,
+nav,
+img,
+.recent ul {
+  width: 100%;
+}
+.logo {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+}
+nav a {
+  padding: 0 15px;
+  text-decoration: none;
+  color: black;
+}
+.head {
+  background-image: url(https://superbthemes.com/demo-files/minimalistblogger/wp-content/uploads/2020/02/pexels-photo-276549-e1518168651468-1.jpg);
+  background-size: cover;
+  background-position: top;
+  color: white;
+  margin: 10px 0;
+}
+.texttop {
+  padding-top: 50px;
+}
+.textbottom {
+  padding-bottom: 50px;
+}
+
+/* Main */
+
+.mainarticle article {
+  padding: 20px 20px 5px 20px;
+}
+article {
+  margin: 25px 0;
+}
+.top article {
+  height: fit-content;
+}
+.top article h3,
+.aside h3 {
+  position: absolute;
+  padding: 0 35px;
+  background-color: white;
+  font-weight: 400;
+}
+.top article h3 {
+  top: -20px;
+  font-size: 0.9rem;
+}
+.top article p {
+  padding: 15px;
+}
+article p {
+  margin: 10px;
+}
+
+/* Button */
+
+button {
+  margin: 20px;
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+  font-weight: bold;
+  border: 2px solid black;
+}
+.page2 {
+  display: none;
+}
+.button button {
+  margin: 5px;
+}
+.currentpage {
+  background-color: white;
+  color: black;
+}
+
+/* Aside */
+
+.aside {
+  margin: 15px auto;
+  padding: 10px;
+}
+aside {
+  margin-bottom: 30px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.recent h3,
+.search h3 {
+  top: -30px;
+}
+.recent ul {
+  align-self: start;
+}
+.linkarticle {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 15px;
+  padding: 20px 0;
+  width: 95%;
+}
+.border {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+}
+.signature {
+  width: 200px;
+}
+.linkart {
+  text-align: left;
+  text-transform: none;
+}
+.date {
+  display: flex;
+  flex-direction: column;
+  color: grey;
+  text-transform: none;
+  padding-top: 5px;
+}
+.search {
+  padding: 35px;
+}
+input {
+  width: 80%;
+}
+.recent a {
+  padding-right: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+/* Footer */
+
+footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+footer article p {
+  color: grey;
+  margin-left: 0;
+  text-align: left;
+}
+footer article,
+footer p {
+  padding-bottom: 20px;
+}
+.line {
+  width: 95%;
+  border-bottom: 1px solid white;
+}
+footer p {
+  text-transform: capitalize;
+  padding-bottom: 20px;
+}
+.underline {
+  border-bottom: 1px solid white;
+  width: 4.5%;
+}
+.posted {
+  width: 75%;
+  border-top: 1px solid black;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.posted p {
+  position: relative;
+  top: -10px;
+  background-color: white;
+  padding: 0 20px;
+  text-align: center;
+  margin: 0;
+}
+
+/* Responsive */
+
+@media screen and (min-width: 701px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  nav{
+    display: flex;
+  justify-content: space-around;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+  }
+  .mainarticle h2 {
+    font-size: 1.8rem;
+    transition: 0.3s;
+  }
+  .top article p,
+  article p {
+    font-size: 1.2rem;
+  }
+  footer article p {
+    font-size: 0.9rem;
+    font-weight: 300;
+  }
+  li {
+    font-size: 1rem;
+  }
+  .head p {
+    font-size: 1.1rem;
+  }
+  .posted {
+    width: 500px;
+  }
+  .posted p {
+    top: -15px;
+  }
+  .page2 {
+    display: inline-block;
+  }
+}
+@media screen and (min-width: 901px) {
+  .top,
+  .foot {
+    display: flex;
+    flex-direction: row;
+  }
+  .top article {
+    width: 33%;
+  }
+  .middle {
+    padding: 0 15px;
+    justify-content: flex-start;
+  }
+  .mid_article {
+    margin: 25px 20px;
+  }
+}
+@media screen and (min-width: 993px) {
+  .main {
+    display: flex;
+    flex-direction: row;
+  }
+  .button {
+    margin-bottom: 30px;
+  }
+  .aside {
+    padding: 10px 10px 10px 30px;
+  }
+  .container,
+  .foot {
+    width: 80%;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+  .head p {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (min-width: 1770px) {
+  .container,
+  .foot {
+    width: 60%;
+  }
+}
